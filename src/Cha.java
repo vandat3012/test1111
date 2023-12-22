@@ -1,4 +1,6 @@
 public class Cha {
+    public Cha() {
+    }
 
     public String naucom() {
         return "bep cui";

@@ -1,6 +1,9 @@
 public class Congai extends Cha{
+    public Congai() {
+    }
+
     @Override
     public String naucom() {
-        return super.naucom();
+        return "bep ga";
     }
 }

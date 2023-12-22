@@ -1,7 +1,10 @@
 public class Contrai extends Cha{
+    public Contrai() {
+    }
+
     @Override
     public String naucom() {
-        return super.naucom();
+        return "bep tu";
     }
 
     @Override

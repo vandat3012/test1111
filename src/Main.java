@@ -3,7 +3,13 @@
 public class Main {
     public static void main(String[] args) {
         Cha[] con  = new Cha[3];
-        con
+        con[0] = new Cha();
+        con[1] = new Contrai();
+        con[2] = new Congai();
+
+        for (Cha x : con) {
+            System.out.println(x);
+        }
 
     }
 }
